@@ -1,6 +1,7 @@
 services:
   react-app:
     build: ./
+    image: react-app
     container_name: react_app
     ports:
       - 80:80
